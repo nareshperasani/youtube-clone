@@ -1,0 +1,79 @@
+@import "../../Base.scss";
+
+.video{
+    margin-bottom: 1rem;
+    padding: 0.7rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+    cursor: pointer;
+
+    &_top{
+        margin-bottom: 0.5rem;
+        position: relative;
+        .lazy-load-image-background{
+            width: 100%;
+        }
+
+        img{
+            width: 100%;
+        }
+        &_duration{
+            position: absolute;
+            bottom: 0.3rem;
+            right: 0.3rem;
+            padding: 0.2em;
+            background: #202020ec;
+            color: #fff;
+            border-radius: 3px;
+        }
+    }
+    .video{
+        display: flex;
+        margin-left: -.7rem;
+        margin-top: -.5rem;
+        
+
+        img{
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            margin-right: .7rem;
+            cursor: pointer;
+        }
+        &_title{
+            color: #000;
+            font-weight: 500;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+        }
+    }
+    &_channel{
+        align-items: center;
+        margin-left: 2.9rem;
+        margin-top: -1.5rem;
+        font-size: 15px;
+        font-weight: inherit;
+
+        p{
+            margin-bottom: 0;
+            
+            color: #7e7979;
+        }
+    }
+
+    &_details{
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 2.65rem;
+        margin-top: -.1rem;
+        
+        span{
+            padding-left: 4px;
+            color: #555252;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,81 @@
+@import '../../Base.scss';
+
+.VideoMetaData{
+    margin-top: 1rem;
+    &_top{
+
+        h5{
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+
+        .channel-name{
+            margin-left: 1rem;
+        }
+        .span-title{
+            cursor: pointer;
+            font-weight: 500;
+            font-size: .95rem;
+        }
+        .span-color{
+            color: #8f8b8b;
+        .span-text{
+            font-size: .9rem;
+            letter-spacing: .2px;
+        }
+    }
+
+    .VideoMetaData_views{
+        color: #8f8b8b;
+    }
+    
+    }
+    .icon{
+        margin: .7rem;
+    }
+    &_channel{
+        border-top: 0.2px solid #dad5d5;
+        border-bottom: 0.2px solid #dad5d5;
+        img{
+            width: 50px;
+            height: 50px;
+        }
+
+        button{
+            background-color: #c00;
+            color: #fff;
+            border-radius: 2px;
+            text-transform: uppercase;
+            letter-spacing: .2px;
+            font-size: .9rem;
+            font-weight: 500;
+            &:hover{
+                color: #fff;
+            }
+            &:focus{
+                border: none;
+                outline: none;
+            }
+            &.btn-gray{
+                background-color: #e4dada;
+                color: #606060;
+            }
+        }
+    }
+    &_description{
+        font-size: 0.9rem;
+        white-space: pre-line;
+        border-bottom: 0.2px solid #dad5d5;
+
+        .showMoreText{
+            color: #686565;
+            font-weight: 500;
+            font-size: .8rem;
+            letter-spacing: .2px;
+            display: block;
+            margin: .8rem 0;
+            text-decoration: none;
+        }
+    }
+}
+

@@ -1,0 +1,17 @@
+.app_container{
+    display: flex;
+    height: 90vh;
+}
+
+.app_main{
+    overflow-y: scroll;
+}
+
+.nav_links{
+    text-decoration: none;
+    color: #615d5d;
+}
+
+.nav_links:hover{
+    color: #615d5d;
+}

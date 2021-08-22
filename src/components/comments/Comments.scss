@@ -1,0 +1,35 @@
+.comments_form{
+    img{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+    input{
+        background: transparent;
+        border: none;
+        width: 100%;
+        border-bottom: 1px solid #dad5d5;
+        margin: 1rem 0;
+        margin-left: .7rem;
+        &:focus{
+            outline: none;
+        }
+    }
+    button{
+        background-color: #e9e3e3;
+        margin-top: 1rem 0;
+        letter-spacing: .5px;
+        color: #8d8989;
+        border-radius: 2px;
+        border: none;
+        font-size: .9rem;
+        font-weight: 500;
+        &:hover{
+            color: #8d8989;
+        }
+        &_focus{
+            border: none;
+            outline: none;
+        }
+    }
+}

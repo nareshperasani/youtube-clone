@@ -1,0 +1,88 @@
+@import '../../Base.scss';
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    
+
+    .header_logo{
+        height: 25px;
+        object-fit: contain;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .menu-icon{
+        color: rgb(110, 108, 108);
+    }
+
+    .header_input{
+        display: flex;
+        align-items: center;
+        width: 40%;
+        border: 1px solid #c5bdbd;
+
+        input{
+            flex: 1;
+            border: none;
+        }
+
+        input::placeholder {
+            font-size: 1.05em;
+            padding-left: .6rem;
+            color: #918c8c;
+          }
+        
+
+        .search_icon{
+            width: 50px !important;
+            background-color: #fafafa;
+            border-left: 1px solid lightgrey;
+            color: rgb(110, 108, 108);
+            cursor: pointer;
+        }
+    }
+
+    .header_icons{
+        display: flex;
+        align-items: center;
+
+        .header_icon{
+            margin-right: 8px;
+            color: rgb(110, 108, 108);
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .header{
+        padding: 1rem;
+
+        .header_input{
+            flex: .7;
+            margin-left: -3rem;
+        }
+        &_left{
+            display: block;
+        }
+        &_logo{
+            display: none;
+        }
+
+        .menu-icon{
+            margin-right: 15px;
+        }
+
+        .header_icon{
+            margin-left: .2rem;
+        }
+
+    }
+}
+
+.normal-button{
+    border: none;
+}
